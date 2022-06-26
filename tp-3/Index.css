@@ -1,1 +1,86 @@
+/*Actividad 1*/
 
+@media  (min-width:400px) {
+    p{
+        font-size: 1.3em;
+    }
+}
+
+/*Acttividad 2*/
+@media  (max-width:300px) {
+    h1{
+        text-align: center;
+    }
+}
+
+/*Actividad 3*/
+@media (max-width:200px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media (min-width:200px) and (max-width:400px) {
+    .container{
+        width: 80%;
+    }
+}
+
+@media (min-width:400px) {
+    .container{
+        width: 390px;
+    }
+}
+
+/*Actividad 4*/
+@media screen {
+    .container{
+        text-align: center;
+    }    
+}
+
+/*Actividad 5*/
+@media print {
+    body{
+        background-color: white;
+    }
+}
+
+@media screen {
+    body{
+        background-color: #ddccaa;
+    }
+}
+
+@media speech {
+    body{
+        background-color: #ddccaa;
+    }
+}
+
+/*Actividad 6*/
+
+@media not color {
+    .wikipedia-logo{
+        display: none;
+    }
+}
+
+/*Actividad 7*/
+
+@media (hover) {
+    blockquote {
+      background-color: #ccddaa;
+    }
+  }
+
+/*Actividad 8*/
+@media screen and (min-aspect-ratio: 1/1){
+    figure {
+        width: 80%;
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid #999;
+        border-radius: 10px;
+    }
+}
